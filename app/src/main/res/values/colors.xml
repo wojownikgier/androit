@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="zielony_tła">#103E03</color>
+    <color name="fielotowy_przycisk">#430A45</color>
+    <color name="bialy_przycisk">#F8F7EE</color>
+    <color name="czarny_przycisk">#050504</color>
+    <color name="zolty_pczyciszk">#FFE106</color>
+    <color name="czerwony_przycisk">#F10202</color>
+    <color name="ciemnoniebieski_przycisk">#0A2880</color>
 </resources>

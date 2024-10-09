@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kolorki barvy na špejli</string>
+    <string name="Pytanie" translatable="false">barvy ne na polskou hůl</string>
+    <string name="podsumowanie" translatable="false">" to jsou barvy na špejli polštiny"</string>
+</resources>

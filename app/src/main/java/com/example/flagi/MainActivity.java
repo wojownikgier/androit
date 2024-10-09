@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(View.INVISIBLE);
         liczba++;
         if (liczba == 4){
-            textView.setText("to jest flaga polski!!\n"  +liczbaPomylek+ "  :razy pomyliłes");
+            textView.setText(R.string.podsumowanie);
         }
     }
 }

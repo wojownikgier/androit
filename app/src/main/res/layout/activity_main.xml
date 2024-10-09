@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#33A612"
+    android:background="@color/zielony_tła"
     tools:context=".MainActivity">
 
 
@@ -14,9 +14,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="@dimen/textwielkość"
         android:layout_margin="16dp"
-        android:text="Które kolory nie wysztępuja kolory na  fladze polski"
+        android:text="@string/Pytanie"
         android:textAlignment="center"
         android:textColor="#FFF6FF"
 
@@ -32,8 +32,8 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#430A45"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/fielotowy_przycisk"
+            android:layout_margin="@dimen/niewiem_co"
             android:onClick="Dobraopwoeidz"
             />
 
@@ -41,8 +41,8 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F8F7EE"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/bialy_przycisk"
+            android:layout_margin="@dimen/niewiem_co"
             android:onClick="Zlaodpowiedz"
 
             />
@@ -51,8 +51,8 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#050504"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/czarny_przycisk"
+            android:layout_margin="@dimen/niewiem_co"
             android:onClick="Dobraopwoeidz"
             />
     </LinearLayout>
@@ -66,8 +66,8 @@
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFE106"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/zolty_pczyciszk"
+            android:layout_margin="@dimen/niewiem_co"
             android:onClick="Dobraopwoeidz"
             />
 
@@ -75,8 +75,8 @@
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F10202"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/czerwony_przycisk"
+            android:layout_margin="@dimen/niewiem_co"
             android:onClick="Zlaodpowiedz"
             />
 
@@ -84,8 +84,8 @@
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#0A2880"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/ciemnoniebieski_przycisk"
+            android:layout_margin="@dimen/niewiem_co"
             android:onClick="Dobraopwoeidz"
             />
     </LinearLayout>

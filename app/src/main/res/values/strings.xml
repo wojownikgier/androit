@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Flagi</string>
+    <string name="app_name" translatable="false">Flagi</string>
+    <string name="Pytanie" translatable="false">Które kolory nie wysztępuja kolory na fladze polski</string>
+    <string name="podsumowanie" translatable="false">to jest flaga polski </string>
 </resources>
